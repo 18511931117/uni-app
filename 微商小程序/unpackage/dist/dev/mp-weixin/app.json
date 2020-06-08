@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/price/price",
+    "pages/community/community",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/index.png",
+        "selectedIconPath": "static/img/index-hover.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/price/price",
+        "iconPath": "static/img/price.png",
+        "selectedIconPath": "static/img/price-hover.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "iconPath": "static/img/shequ.png",
+        "selectedIconPath": "static/img/shequ-hover.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/img/me.png",
+        "selectedIconPath": "static/img/me-hover.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
